@@ -253,7 +253,7 @@ function App() {
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 14</h3>
           <p>CRINGE CRINGE CRINGE CRINGE CRINGE CRINGE CRINGE CRINGE. But i really like the view and youuu hehheee</p>
-          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/FWlxkcPzFaY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/mpt3JAueAzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -264,7 +264,7 @@ function App() {
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 15</h3>
           <p>Transisinyaa bagus banget yaa, sempurnaa bangett seperti transisi transisi orang India:)). Tapi sayangnyaa video ini ga viral karena ga diupload, menghindari hujatan hujatan bocah bocah follower habshah:(</p>
-          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/ucz4GtHwwoQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/tlI3phyYePo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -275,7 +275,7 @@ function App() {
         >
           <h3 className="vertical-timeline-element-title">Cover Lagu</h3>
           <p>Pertamaa kalinyaaa kita cover laguuu, DAN LU CUMA MAU NYANYI KALAU GUA JUGA IKUT NYANYII, SADD:(( udah dibilangin suara gua tuh fals bangett, tapii gapapa lah yah sekali2 ngecover lguuu, masihh mau sih sebenarnyaa</p>
-          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/kHP5nWcW-wA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/uDenAv-gxro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
