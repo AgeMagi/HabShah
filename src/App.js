@@ -1,7 +1,10 @@
 import './App.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {GiLoveLetter} from 'react-icons/gi';
+import {HiChat} from 'react-icons/hi';
+import {MdPhoto} from 'react-icons/md';
+import tiktok from './images/tiktok.png';
+
 import garut from './images/garut.jpeg'
 import fotoBersama from './images/foto-bersama.png'
 import habshah from './images/habshah.jpg'
@@ -23,7 +26,7 @@ function App() {
           iconStyle={{ background: '#4b5320', color: '#fff' }}
           contentStyle={{background: 'transparent'}}
           contentArrowStyle={{color: '#4b5320'}}
-          icon={<GiLoveLetter />}
+          icon={<HiChat />}
         >
           <h3 className="vertical-timeline-element-title">Chat Pertama</h3>
           <p>Kamu modus yaa ngucapin aku wisuda!! WKWKWKWKWK. LIHAT ITU AKU MASIH MANGGIL ASHA HEHEHEHHE, sebuah kelangkaann.</p>
@@ -33,7 +36,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="17-06-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<HiChat />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Chat WhatsApp Pertama</h3>
@@ -44,7 +47,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="10-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 1 (Pertama Berdua)</h3>
@@ -55,7 +58,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="24-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 2</h3>
@@ -66,7 +69,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="26-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 3</h3>
@@ -77,7 +80,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="27-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 4</h3>
@@ -88,7 +91,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="27-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 5</h3>
@@ -99,7 +102,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="30-9-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 6</h3>
@@ -110,7 +113,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="3-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 7</h3>
@@ -121,7 +124,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="3-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 8</h3>
@@ -132,7 +135,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="6-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<MdPhoto />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Foto Bersama Bapak Willy</h3>
@@ -143,7 +146,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="7-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 9</h3>
@@ -154,7 +157,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="7-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Photoshooth SMA</h3>
@@ -165,18 +168,18 @@ function App() {
           className="vertical-timeline-element--work"
           date="8-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 10</h3>
           <p>blacky blacky is my favorite shirt. Udah hampir tiap hari nih keknyaa bikin video Tiktok yahh</p>
-          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/BQaDsfo3Q-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="video" width="80%" height="300" src="https://www.youtube.com/embed/La4A8_Z7vH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="9-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Kontrak TikTok</h3>
@@ -187,7 +190,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="10-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 11</h3>
@@ -198,7 +201,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="11-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 12</h3>
@@ -209,7 +212,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="14-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 13</h3>
@@ -220,7 +223,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="16-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Meme Sekolah</h3>
@@ -231,7 +234,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="17-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Situ Patenggang</h3>
@@ -242,7 +245,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="17-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 14</h3>
@@ -253,7 +256,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="19-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Video Tiktok 15</h3>
@@ -264,7 +267,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="19-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Cover Lagu</h3>
@@ -275,11 +278,12 @@ function App() {
           className="vertical-timeline-element--work"
           date="31-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<GiLoveLetter />}
+          icon={<img src={tiktok} className="icon"/>}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Jalan-Jalan ke Garut</h3>
           <p className="vertical-timeline-element-subtitle">Kita jalan-jalan ke garut yang penuh tantangan nan bahaya WKWKWKWK. Meskipun pantainya kurang banget dan udara disana ga enak banget bikin keringat terus, tapi aku gatau kenapa tetap senang dan kalau diajak kesana lagi aku masih sangat mauu hehehhee.</p>
+          <img src={garut2} className="image"/>
           <img src={garut} className="image"/>
         </VerticalTimelineElement>
       </VerticalTimeline>
