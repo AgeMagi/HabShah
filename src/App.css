@@ -13,6 +13,10 @@
   }
 }
 
+.apps {
+  background-color: #f5f1e6;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image {
+  width: 80%;
+  height: auto;
+  /* display: block; */
+  /* margin: auto; */
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.video {
+  margin-top: 20px;
 }
