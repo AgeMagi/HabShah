@@ -3,6 +3,9 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import {HiChat} from 'react-icons/hi';
 import {MdPhoto} from 'react-icons/md';
+import {FaSchool, FaFileContract, FaUmbrellaBeach} from 'react-icons/fa';
+import {BsFillPeopleFill} from 'react-icons/bs';
+import {GiLoveSong} from 'react-icons/gi';
 import tiktok from './images/tiktok.png';
 
 import garut from './images/garut.jpeg'
@@ -157,7 +160,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="7-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<FaSchool />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Photoshooth SMA</h3>
@@ -179,7 +182,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="9-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<FaFileContract />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Kontrak TikTok</h3>
@@ -223,7 +226,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="16-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<BsFillPeopleFill />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Meme Sekolah</h3>
@@ -234,7 +237,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="17-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<FaUmbrellaBeach />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Situ Patenggang</h3>
@@ -267,7 +270,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="19-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<GiLoveSong />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Cover Lagu</h3>
@@ -278,7 +281,7 @@ function App() {
           className="vertical-timeline-element--work"
           date="31-10-2020"
           iconStyle={{ background: '#4b5320', color: '#fff' }}
-          icon={<img src={tiktok} className="icon"/>}
+          icon={<FaUmbrellaBeach />}
           contentStyle={{background: 'transparent'}}
         >
           <h3 className="vertical-timeline-element-title">Jalan-Jalan ke Garut</h3>
@@ -286,6 +289,9 @@ function App() {
           <img src={garut2} className="image"/>
           <img src={garut} className="image"/>
         </VerticalTimelineElement>
+
+        <h1 className="title">Kamu mau ga jadi pacar aku?</h1>
+        <a className="button-yes" href="https://wa.me/6285299724084?text=Aku+mau+jadi+pacar+kamu+kok+hehe" target="__blank">Iya</a>
       </VerticalTimeline>
     </div>
   );

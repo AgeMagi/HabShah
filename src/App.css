@@ -52,6 +52,17 @@ p {
   margin-top: 3px;
 }
 
+.button-yes {
+  background-color: #4b5320;
+  color: white;
+  font-family: 'Masbul,geomanist,SF Pro Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif';
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
